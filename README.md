@@ -44,6 +44,9 @@ We also encourage to use [husky](https://github.com/typicode/husky) and [lint-st
 
 ```json
 {
+  "scripts": {
+    "precommit": "lint-staged" 
+  },
   "lint-staged": {
     "linters": {
       "src/**/*.js": [
